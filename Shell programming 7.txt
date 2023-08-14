@@ -1,0 +1,24 @@
+Shell programming 7:-
+echo "Enter a string"
+read s1
+echo "Echo the character to be changed"
+read ch
+echo "Enter the character to be replaced"
+read re
+len='echo $str |wc-c'
+len='expr $lenlen-1'
+count=0
+i=1
+while [$i -le $len]
+do
+	temp='echo $str |cut-c $i'
+	if [temp=$c]
+	then
+		new='echo $new $r'
+	else
+		new='echo $new $temp
+	fi
+	i='expr $si+i'
+done
+echo "original string is $str"
+echo "updated string is $new"

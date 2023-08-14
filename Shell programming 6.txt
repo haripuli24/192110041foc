@@ -1,0 +1,25 @@
+Shell programming 6:-
+echo "Enter the string"
+read str
+len='echo $str |wc-c'
+len='expr $len-1'
+vowel=0
+while [$len-gt 0]
+do
+	temp='echo $str |cut-c$len'
+	if[$temp = a]
+	then
+		vowel='expr$vowel+1'
+	elif [$temp=e]
+	then
+		vowel="expr $vowel+1"
+	elif [$temp=i]
+	then
+		vowel='expr $vowel+1'
+	elif [$temp=u]
+	then
+		vowel='expr $vowel+1'
+	len='expr $len-1'
+done
+echo "Number of vowelsin the string $str is $vowel"
+	fi

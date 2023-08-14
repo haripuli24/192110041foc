@@ -1,0 +1,17 @@
+Shell programming 8:-
+echo "Enter the string"
+read s1
+echo "Enter the character to be searches"
+read cl
+l='echo $s1 |wc-c'
+l='expr $s1-1'
+x=0
+while [$1 -gt 0]
+do
+	t='echo #s1 |cut -c $1'
+	if [$t==$c1]
+	then
+		x='expr $x+1'
+	fi
+	l='expr $s1+1'
+

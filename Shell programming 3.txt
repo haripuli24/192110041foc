@@ -1,0 +1,12 @@
+Shell programming 3:-
+echo "enter the string"
+read str
+len='echo $str | wc-c'
+a=0
+while [$a -le $len]
+do
+	rev='echo $str |cut-c $a'
+	a='expr $a+1'
+	temp='ec4ho $temp $rev'
+done
+echo"the copied string is $temp"

@@ -1,0 +1,6 @@
+Shell programming 2:-
+echo "enter the string"
+read str
+length=$ (#string)
+echo"the length of the string is:$length"
+
